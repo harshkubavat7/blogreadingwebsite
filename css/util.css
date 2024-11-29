@@ -1,0 +1,47 @@
+/* this use for extra classes which we can use of style and reuse */
+
+@import url('https://fonts.googleapis.com/css2?family=Fredoka:wght@300..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Fredoka:wght@300..700&display=swap');
+:root{
+    --main-bg-color:brown;
+    --font1:"Fredoka", sans-serif;
+    --font2:"Bebas Neue", sans-serif;
+}
+
+.max-width-1{
+    /* use vh or vw for responsive */
+    max-width: 80vw;
+}
+.max-width-2{
+    max-width: 90vw;
+}
+.m-auto{
+    margin: auto; 
+    /* use to center elemewnt */
+}
+
+.btn{
+    margin-left: 10px;
+    height: 35px;
+    width: 60px;
+    color: rgb(0, 0, 0);
+    background-color: rgb(255, 255, 255);
+    border: 1px solid;
+    border-radius: 10px;
+    font-size: 15px;
+    font-weight: 500;
+    padding-top: 6px;
+    padding-bottom: 20px;
+    padding-left: 10px;
+    padding-right: 10px;
+    cursor: pointer;
+    transition: all 0.1s ease-in-out;
+    margin-top: 6px;
+}
+
+.btn:hover{
+    background-color: orange;
+    color: rgb(0, 0, 0);
+}
+
+

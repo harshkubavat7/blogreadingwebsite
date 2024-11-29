@@ -1,0 +1,224 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.navigation{
+    font-family: var(--font1);
+    /* height: 80px; */
+    /* background-color: cadetblue; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.content{
+    /* height: 100%; */
+    width: 100%;
+    /* background-color: blueviolet; */
+    /* background-color: burlywood; */
+}
+.footer{
+    height: 50px;
+    /* background-color: yellowgreen; */
+}
+.nav-left{
+    display: flex;
+
+}
+.nav-left ul {
+    display: flex;
+    align-items: center;
+}
+.nav-left ul li{
+
+    list-style: none;
+    margin-left: 40px;
+    font-family: var(--font1);
+}
+.nav-left a{
+    text-decoration: none;
+    color:black;
+    font-size: 20px;
+    padding: 10px 10px 10px 10px;
+}
+
+a:hover{
+    background-color: orange;
+    color: black;
+    border: 2px solid black;
+    border-radius: 20px;
+    
+
+    
+}
+.nav-left img{
+    margin-top: 10px;
+    height: 80px;
+    width: 80px;
+
+    border-radius: 20px;
+}
+.input-form{
+    height: 5vh;
+    padding-left: 20px;
+    width: 16vw;
+    font-size: 20px;
+    color: black;
+    border: 2px solid black;
+    border-radius: 10px;
+    font-family: var(--font1);
+}
+.nav-right{
+    display: flex;
+    height: 40px;
+    align-items: center;
+}
+.quote{
+    margin-left: 150px;
+    margin-top: 40px;
+    height: 28vh;
+    border-radius: 20px;
+    width: 80vw;
+    border: 1px solid black;
+   background-image:url("https://t4.ftcdn.net/jpg/04/13/46/95/360_F_413469574_7DUYB9rlik6Ua7lM7SXJ6IpUxq5sGUOE.jpg");
+}
+.quote h3{
+    display: flex;
+   padding-top: 80px;
+   padding-left: 30px;
+   font-size: 40px;
+   font-family: var(--font2);
+}
+
+.home-articles{
+    font-size: 25px;
+    /* font-family: var(--font2) */
+   
+    /* background-color: aqua; */
+}
+.home-article{
+    display: flex;
+    font-family: var(--font1);
+    margin-left: -50px;
+    position: relative;
+    /* background-color: bisque; */
+}
+.home-article img{
+    
+    width: 300px;
+}
+.year-box{
+    position: absolute;
+    height: 200px;
+    width: 205px;
+    /* background-color: blueviolet; */
+    right: 350px;
+    top: 500px;
+    z-index: 1;
+    /* margin-left: 100px; */
+}
+.year-box div{
+    margin-top: 20px;
+}
+
+.home-article-img{
+    padding-left: 50px;
+    padding-top: 50px;
+}
+.home-article-content{
+    /* height: 80px; */
+    /* background-color: brown; */
+    
+    width: 500px;
+    /* text-align:center; */
+    align-self: center;
+    padding: 10px 20px 10px 20px;
+}
+.home-article-content a{
+    text-decoration: none;
+    color: black;
+}
+.login{
+    padding: 10px;
+    font-size: 20px;
+    text-decoration: none;
+    color: black;
+}
+.contact{
+    display: flex;
+}
+
+.logo{
+    height: 100vh;
+    width: 50%;
+    /* background-color: blanchedalmond; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+.form{
+    display: flex;
+    
+    justify-content: center;
+    height: 100vh;
+    width: 50%;
+    /* background-color: aquamarine; */
+}
+
+#symbols{
+    height: 60%;
+    width: 70%;
+    /* background-color: chartreuse; */
+    border: 2px solid black;
+    border-radius: 25px;
+
+}
+#symbols h2{
+    font-size: 30px;
+    padding: 20px;
+    margin-left: 150px;
+    font-family: var(--font1);
+    /* background-color: blue;   */
+}
+#symbols p{
+    font-weight: 600;
+    font-size: 35px;
+    font-family: var(--font1);
+    padding: 30px;
+    margin-left: 20px;
+}
+.insta{
+    margin-left: 120px;
+    font-size: 50px;
+    background-color: black;
+    color: white;
+    padding: 3px;
+    border-radius: 20px;
+}
+.linkdin{
+    margin-left: 50px;
+    font-size: 50px;
+    background-color: black;
+    color: white;
+    padding: 3px;
+    border-radius: 20px;
+}
+.twit{
+    margin-left: 50px;
+    font-size: 50px;
+    background-color: black;
+    color: white;
+    padding: 3px;
+    border-radius: 20px;
+}
+#child{
+    margin-top: 100px;
+   
+    height: 70%;
+    width: 70%;
+    background-color: rgb(197, 197, 232)  ;
+}
+
