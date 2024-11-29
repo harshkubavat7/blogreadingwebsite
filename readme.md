@@ -1,7 +1,7 @@
 </head>
 <body>
   <div class="container">
-    <h1>README for Blog Reading Website</h1>
+    <h1>README for Blog Reading Website (harsh)</h1>
 
 # Start Frontend
 cd frontend
